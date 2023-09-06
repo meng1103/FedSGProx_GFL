@@ -10,9 +10,6 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
  ---- | ----- | ------  
 Cora  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容 
 Citeseer  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容   
-OGBN-arxiv  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-Reddit  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
+
 
 ## Ablation
