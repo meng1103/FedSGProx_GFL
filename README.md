@@ -6,9 +6,14 @@ This is the data result supplement for the experimental part of paper"FedSGProx:
 ## Scalability
 we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of the clients are randomly selected to perform local training. The following are the accuracy results of different methods after 500 epoch iterations.
 
-表头  | 表头  | 表头
+表头  | Central  | FedAvg  | FedProx  | FedSGProx
  ---- | ----- | ------  
-单元格内容  | 单元格内容 | 单元格内容 
-单元格内容  | 单元格内容 | 单元格内容   
+Cora  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容 
+Citeseer  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容   
+OGBN-arxiv  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
+Reddit  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
+ ---- | ----- | ------  
+单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
+单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
 
 ## Ablation
