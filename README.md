@@ -12,6 +12,9 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |__Citeseer($\beta=0.8$)__   | 0     | 0    |  0    |   0   
 |__OGBN-arxiv($\beta=0.8$)__     | 0     | 0    |  0    |   0   
 |__Reddit($\beta=0.8$)__   | 0     | 0    |  0    |   0   
+
+|       | **Central**  | __FedAvg__  | __FedProx__  | __FedSGProx__
+|--------------|-------|------|-------|-------
 |__Cora($\beta=0.8$)__   | 0     | 0    |  0    |   0   
 |__Citeseer($\beta=0.8$)__   | 0     | 0    |  0    |   0   
 |__OGBN-arxiv($\beta=0.8$)__     | 0     | 0    |  0    |   0   
