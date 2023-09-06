@@ -8,10 +8,10 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 
 |       | Central  | FedAvg  | FedProx  | FedSGProx
 |-------|-------|------|-------|-------
-|Cora   | 0     | 0    |  0    |   0   
-|Citeseer   | 0     | 0    |  0    |   0   
-|OGBN-arxiv     | 0     | 0    |  0    |   0   
-|Reddit   | 0     | 0    |  0    |   0   
+|Cora($\beta=0.8$)   | 0     | 0    |  0    |   0   
+|Citeseer($\beta=0.8$)   | 0     | 0    |  0    |   0   
+|OGBN-arxiv($\beta=0.8$)     | 0     | 0    |  0    |   0   
+|Reddit($\beta=0.8$)   | 0     | 0    |  0    |   0   
 
 
 
