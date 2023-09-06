@@ -9,17 +9,11 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |       | Central  | FedAvg  | FedProx  | FedSGProx
 |-------|-------|------|-------|-------|
 |Cora   | 0     | 0    |  0    |   0   |
+|Citeseer   | 0     | 0    |  0    |   0   |
+|OGBN-arxiv     | 0     | 0    |  0    |   0   |
+|Reddit   | 0     | 0    |  0    |   0   |
 
 
 
-
-表头  | Central  | FedAvg  | FedProx  | FedSGProx
- ---- | ----- | ------  
-Cora  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容 
-Citeseer  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容   
-OGBN-arxiv  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-Reddit  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
-单元格内容  | 单元格内容 | 单元格内容 | 单元格内容 | 单元格内容  
 
 ## Ablation
