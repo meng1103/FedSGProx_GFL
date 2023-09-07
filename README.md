@@ -47,7 +47,9 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 
 ## Ablation
 
-|       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedAvg(+sampler)__  | __FedSGProx__
+To validate the effectiveness of the constraints and samplers, we conducted ablation studies. The initial method is FedAvg. The experimental results of incorporating constraint terms optimization without samplers are denoted as FedAvg(+constraint). The results with samplers but without constraint terms optimization are labeled as FedAvg(+sampler). Finally, FedSGProx represents the experimental results when both constraint terms and samplers are employed.
+
+|       | __FedAvg__  | __FedAvg(+constraint)__  | __FedAvg(+sampler)__  | __FedSGProx__
 |--------------| :------: | :----------------: | :----------------: | :-------:
 |__Cora($\beta=0.8$)__   | 0.758    |  0.766    |  0.764    |   **0.792**   
 |__Citeseer($\beta=0.8$)__   | 0.706    |  0.736    |  0.714    |   **0.740**   
@@ -55,7 +57,7 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |__Reddit($\beta=0.8$)__   | 0.907    |  0.928    |  0.    |   **0.931**  
 
 
-|       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedAvg(+sampler)__  | __FedSGProx__
+|       | __FedAvg__  | __FedAvg(+constraint)__  | __FedAvg(+sampler)__  | __FedSGProx__
 |--------------| :------: | :----------------: | :----------------: | :-------:
 |__Cora($\alpha=0.5$)__   | 0.764    |  **0.790**    |  0.768    |   0.782   
 |__Citeseer($\alpha=0.5$)__   | 0.700    |  0.710    |  0.716    |   **0.722**   
