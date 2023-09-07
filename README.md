@@ -47,7 +47,7 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 
 ## Ablation
 
-|       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedSGProx__
+|       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedSGProx()__
 |--------------| :------: | :----------------: | :-------:
 |__Cora($\beta=0.8$)__   | 0.758    |  0.790    |   0.792   
 |__Citeseer($\beta=0.8$)__   | 0.706    |  0.710    |   0.740   
