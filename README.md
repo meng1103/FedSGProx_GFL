@@ -1,9 +1,9 @@
 # FedSGProx_GFL
-This is the data result supplement for the experimental part of paper"FedSGProx: Mitigating Data Heterogeneity and Isolated Nodes in Graph Federated Learning"
+This is the data result supplement for the experimental part of the paper"FedSGProx: Mitigating Data Heterogeneity and Isolated Nodes in Graph Federated Learning"
 
 ## Experimental results
 
-We evaluate the highest accuracy that different methods can achieve by executing 500 epochs in the environment of $\beta=0.8$ and $\alpha=0.5$. The experimental results of $\beta=0.8$ are as follows:
+We evaluate the highest accuracy that different methods can achieve by executing 500 epochs in the environment of $\beta=0.8$ and $\alpha=0.5$. Among them, **Central** represents the result of centralized training. The experimental results of $\beta=0.8$ are as follows:
 
 |       | **Central**  | __FedAvg__  | __FedProx__  | __FedSGProx__
 |--------------|-------|------|-------|-------
