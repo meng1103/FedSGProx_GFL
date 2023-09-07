@@ -49,10 +49,10 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 
 |       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedSGProx__
 |--------------| :------: | :----------------: | :-------:
-|__Cora($\beta=0.8$)__   | 0.762    |  0.770    |   0.794   
-|__Citeseer($\beta=0.8$)__   | 0.712    |  0.710    |   0.738   
-|__OGBN-arxiv($\beta=0.8$)__     | 0.505    |  0.504    |   0.534   
-|__Reddit($\beta=0.8$)__   | 0.905    |  0.904    |   0.924   
+|__Cora($\beta=0.8$)__   | 0.758    |  0.790    |   0.792   
+|__Citeseer($\beta=0.8$)__   | 0.706    |  0.710    |   0.740   
+|__OGBN-arxiv($\beta=0.8$)__     | 0.560    |  0    |   0.581   
+|__Reddit($\beta=0.8$)__   | 0.907    |  0    |   0.931  
 
 
 
