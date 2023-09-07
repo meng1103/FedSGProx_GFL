@@ -12,6 +12,8 @@ We evaluate the highest accuracy that different methods can achieve by executing
 |__OGBN-arxiv($\beta=0.8$)__     | 0.653     | 0.560    |  0.560    |   0.581   
 |__Reddit($\beta=0.8$)__   | 0.942     | 0.907    |  0.908    |   0.931   
 
+<img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k21_cora_cn1_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k18_citeseer_cn1_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn1_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k123_reddit_cn1_rate08.png" width="25%" height="25%">
+
 The experimental results of $\alpha=0.5$ are as follows:
 
 |       | **Central**  | __FedAvg__  | __FedProx__  | __FedSGProx__
