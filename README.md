@@ -51,7 +51,7 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |--------------| :------: | :----------------: | :----------------: | :-------:
 |__Cora($\beta=0.8$)__   | 0.758    |  0.766    |  0.764    |   **0.792**   
 |__Citeseer($\beta=0.8$)__   | 0.706    |  0.736    |  0.714    |   **0.740**   
-|__OGBN-arxiv($\beta=0.8$)__     | 0.560    |  0.560    |  0.    |   **0.581**   
+|__OGBN-arxiv($\beta=0.8$)__     | 0.560    |  0.560    |  0.562    |   **0.581**   
 |__Reddit($\beta=0.8$)__   | 0.907    |  0.928    |  0.    |   **0.931**  
 
 
@@ -59,8 +59,8 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |--------------| :------: | :----------------: | :----------------: | :-------:
 |__Cora($\alpha=0.5$)__   | 0.764    |  **0.790**    |  0.768    |   0.782   
 |__Citeseer($\alpha=0.5$)__   | 0.700    |  0.710    |  0.716    |   **0.722**   
-|__OGBN-arxiv($\alpha=0.5$)__     | 0.611    |  0.642    |  0.    |   **0.645**   
+|__OGBN-arxiv($\alpha=0.5$)__     | 0.611    |  0.642    |  0.609    |   **0.645**   
 |__Reddit($\alpha=0.5$)__   | 0.935    |  **0.943**    |  0.    |   0.942  
 
 
-
+The constraints and samplers we proposed have been experimentally validated for their effectiveness, surpassing the initial FedAvg algorithm. Furthermore, combining both of them yields even better experimental results since they address different issues within Non-IID graph data.
