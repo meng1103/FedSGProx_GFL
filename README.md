@@ -21,7 +21,7 @@ The experimental results of $\alpha=0.5$ are as follows:
 |__OGBN-arxiv($\alpha=0.5$)__     | 0.653     | 0.611    |  0.612    |   0.645   
 |__Reddit($\alpha=0.5$)__   | 0.942     | 0.935    |  0.935    |   0.942  
 
-<img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn1_LDA05.png"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn1_rate08.png">
+<img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn1_LDA05.png", width="200", height="180"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn1_rate08.png">
 
 ## Scalability
 we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of the clients are randomly selected to perform local training. The following are the accuracy results of different methods after 500 epoch iterations.
