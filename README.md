@@ -6,7 +6,7 @@ This is the data result supplement for the experimental part of the paper"FedSGP
 We evaluate the highest accuracy that different methods can achieve by executing 500 epochs in the environment of $\beta=0.8$ and $\alpha=0.5$. Among them, **Central** represents the result of centralized training. The experimental results of $\beta=0.8$ are as follows:
 
 |       | **Central**  | __FedAvg__  | __FedProx__  | __FedSGProx__
-|--------------|:-------:|:------:|:-------:|:-------:
+|--------------| :-------: | :------: | :-------: | :-------: 
 |__Cora($\beta=0.8$)__   | *0.798*     | 0.758    |  0.764    |   **0.792**   
 |__Citeseer($\beta=0.8$)__   | *0.702*     | 0.706    |  0.728    |   **0.740**   
 |__OGBN-arxiv($\beta=0.8$)__     | *0.653*     | 0.560    |  0.560    |   **0.581**  
@@ -48,7 +48,7 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 ## Ablation
 
 |       | __FedAvg__  | __FedAvg(+constraint terms)__  | __FedSGProx__
-|--------------|:------:|:----------------:|:-------:
+|--------------| :------: | :----------------: | :-------:
 |__Cora($\beta=0.8$)__   | 0.762    |  0.770    |   0.794   
 |__Citeseer($\beta=0.8$)__   | 0.712    |  0.710    |   0.738   
 |__OGBN-arxiv($\beta=0.8$)__     | 0.505    |  0.504    |   0.534   
