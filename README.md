@@ -36,6 +36,7 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |__Reddit($\beta=0.8$)__   | *0.942*     | 0.905    |  0.904    |   **0.924**   
 
 
+<img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k21_cora_cn05_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k18_citeseer_cn05_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn05_rate08.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k123_reddit_cn05_rate08.png" width="25%" height="25%">
 
 |       | **Central**  | __FedAvg__  | __FedProx__  | __FedSGProx__
 |--------------|:-------:|:------:|:-------:|:-------:
@@ -43,6 +44,9 @@ we set a participation ratio of $\rho=0.5$, meaning that in each epoch, 50% of t
 |__Citeseer($\alpha=0.5$)__   | *0.702*     | 0.704    |  0.698    |   **0.724**   
 |__OGBN-arxiv($\alpha=0.5$)__     | *0.653*     | 0.606    |  0.608    |   **0.634**   
 |__Reddit($\alpha=0.5$)__   | *0.942*     | 0.933    |  0.933    |   **0.941**   
+
+
+<img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k21_cora_cn05_LDA05.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k18_citeseer_cn05_LDA05.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k120_ogbn-arxiv_cn05_LDA05.png" width="25%" height="25%"><img src="https://github.com/meng1103/FedSGProx_GFL/blob/main/result/k123_reddit_cn05_LDA05.png" width="25%" height="25%">
 
 
 ## Ablation
